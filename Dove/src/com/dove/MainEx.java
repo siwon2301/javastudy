@@ -2,11 +2,14 @@ package com.dove;
 
 public class MainEx {
 	public static void main(String[] args) {
+		Dog mt1 = new Dog();
+		mt1.setAge(1);
+		mt1.setName("먼지");
 		
-		Dog mt1 = new Dog(); //다른 클래스의 객체 선언
+		System.out.println(mt1.getName()+mt1.getage());
 		
-		mt1.setDog(1);
-		mt1.setDog("멍멍이");
+		
+		
 		
 		
 	}

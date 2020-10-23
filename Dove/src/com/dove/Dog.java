@@ -2,52 +2,29 @@ package com.dove;
 
 public class Dog {
 	
-	private String name;	
+	private String name;
 	private int age;
 	
 	public Dog() {
-		name = "港港捞";		
-		age = 1;
+		name = "港港捞";
+		age = 10;
 	}
 	
-	
-	
-	
-	public Dog(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
-	
-	
-	public Dog(int age, String name) {
-		
-		this.age = age;
-		this.name = name;
-	}	
-	
-	public void setDog(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
-	public void setDog(int age) {
+	public void setAge(int age) {
 		this.age = age;
-		
 	}
 	
-	public void setDog(String name, int age) {
-		this.name;
-	}
-	
-	public String getDog() {
+	public String getName() {
 		return name;
-		}
+	}
 	
-	public int getDog() {
+	public int getage() {
 		return age;
-		}
-	
-	
-	
+	}
 	
 	
 }
